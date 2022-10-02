@@ -5,7 +5,7 @@
 
 <div class="app">
 	<header>
-		Hello
+		<a href="/">&lt; Home</a>
 	</header>
 
 	<main>
