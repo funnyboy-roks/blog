@@ -2,12 +2,16 @@
 	import type { PageData } from './$types';
 	export let data: PageData;
 
-	const formatter = Intl.DateTimeFormat();
+	const formatter = Intl.DateTimeFormat(undefined, {
+		day: 'numeric',
+		month: 'long',
+		year: 'numeric',
+	});
 </script>
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Blog site for funnyboy_roks" />
 </svelte:head>
 
 <section>
