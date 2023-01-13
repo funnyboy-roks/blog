@@ -17,6 +17,8 @@
 			<a href="https://funnyboyroks.com" target="_blank">Website</a>
 			|
 			<a href="https://github.com/funnyboy-roks" target="_blank">GitHub</a>
+			|
+			<a href="https://api.funnyboyroks.com/discord" target="_blank">Discord</a>
 		</p>
 		<p>Made with 💚 by funnyboy_roks</p>
 	</footer>
