@@ -150,19 +150,29 @@ a:hover {
 
 a:after {
 	content: '↗';
-	font-size: .75em;
+	font-size: 0.75em;
 }
 
 a:visited:after {
-	color: var(--h3-color)
+	color: var(--h3-color);
 }
 
 a.anchor:after {
-	content: ''
+	content: '';
 }
 
 img {
 	max-width: 100%;
 	height: auto;
 	border-radius: 5px;
+}
+
+@media screen and (max-width: 900px) {
+	body {
+		max-width: 100vw;
+		margin: none;
+	}
+	code.hljs {
+		width: 100vw;
+	}
 }
