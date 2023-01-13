@@ -10,6 +10,10 @@
 	--h6-color: #ff6663;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: #000;
 	color: lightgrey;
@@ -151,4 +155,14 @@ a:after {
 
 a:visited:after {
 	color: var(--h3-color)
+}
+
+a.anchor:after {
+	content: ''
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
 }
