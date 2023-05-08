@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+    import './hljs-circus.css';
 	export let data: PageData;
 	const { frontmatter } = data;
 </script>
@@ -19,6 +20,10 @@
 </svelte:head>
 
 <div>
+	<header>
+		<a href="/">&lt; Home</a>
+	</header>
+
 	{@html data.renderedContent}
 </div>
 

@@ -4,10 +4,6 @@
 </script>
 
 <div class="app">
-	<header>
-		<a href="/">&lt; Home</a>
-	</header>
-
 	<main>
 		<slot />
 	</main>

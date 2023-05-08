@@ -8,6 +8,7 @@
 	--h4-color: #c2eaba;
 	--h5-color: #f9c784;
 	--h6-color: #ff6663;
+    --bg-color: #111111;
 }
 
 html {
@@ -15,7 +16,7 @@ html {
 }
 
 body {
-	background: #000;
+	background: var(--bg-color);
 	color: lightgrey;
 	max-width: 900px;
 	margin: auto;
