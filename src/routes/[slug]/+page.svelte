@@ -23,7 +23,6 @@
 	<header>
 		<a href="/">&lt; Home</a>
 	</header>
-
 	{@html data.renderedContent}
 </div>
 

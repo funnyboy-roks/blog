@@ -1,14 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
 
 :root {
+    --base00: #191919;
+    --base01: #202020;
+    --base02: #303030;
+    --base03: #5f5a60;
+    --base04: #505050;
+    --base05: #a7a7a7;
+    --base06: #808080;
+    --base07: #ffffff;
+    --base08: #dc657d;
+    --base09: #4bb1a7;
+    --base0A: #c3ba63;
+    --base0B: #84b97c;
+    --base0C: #4bb1a7;
+    --base0D: #639ee4;
+    --base0E: #b888e2;
+    --base0F: #b888e2;
+
+
 	--outline-color: #fff3;
-	--h1-color: #fff89a;
-	--h2-color: #9adcff;
-	--h3-color: #f7a1c4;
-	--h4-color: #c2eaba;
-	--h5-color: #f9c784;
-	--h6-color: #ff6663;
-    --bg-color: #111111;
+    
+	--h1-color: var(--base0A);
+	--h2-color: var(--base09);
+	--h3-color: var(--base0B);
+	--h4-color: var(--base0D);
+	--h5-color: var(--base0E);
+	--h6-color: var(--base0F);
+
+    --text-color: lightgrey;
+
+    /*--code-bg-color: var(--base01);*/
+
+    --bg-color: var(--base01);
 }
 
 html {
@@ -17,7 +41,7 @@ html {
 
 body {
 	background: var(--bg-color);
-	color: lightgrey;
+	color: var(--text-color);
 	max-width: 900px;
 	margin: auto;
 	font-family: 'Anonymous Pro';
@@ -138,6 +162,7 @@ kbd {
 code.hljs,
 kbd {
 	border-radius: 5px;
+    background-color: var(--base00);
 }
 
 a {
