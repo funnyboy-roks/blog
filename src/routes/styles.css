@@ -147,6 +147,10 @@ td {
 	padding: 1rem;
 }
 
+table tr:nth-child(even) {
+    background-color: #ffffff0a;
+}
+
 th {
 	font-weight: bolder;
 	font-size: 1.2em;
